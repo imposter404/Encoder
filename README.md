@@ -1,8 +1,8 @@
 # Encoding
 
-## `txt` --> `image`  && `image` --> `txt`
+#### `txt` --> `image`  && `image` --> `txt`
 
-## using
+#### using
 
 # JavaScript
 
