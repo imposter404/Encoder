@@ -41,4 +41,4 @@
 
 
 ## published at:
-https://imposter404.github.io/Encoder
+[/Encoder](https://imposter404.github.io/Encoder)
