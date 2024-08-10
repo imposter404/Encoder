@@ -18,7 +18,7 @@
 ### Step 3.
 >click `Download`
 
->[!note] :
+> [!NOTE]
 >The text file dhould be in  `.txt` format
 
 
@@ -36,7 +36,7 @@
 >click `Download`
 
 
->[!note] :
+> [!NOTE]
 >The image file should be in `.png` format
 
 
