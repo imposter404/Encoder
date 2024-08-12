@@ -25,7 +25,7 @@ Step 3.
 >click `Download`
 
 > [!NOTE]
->The text file dhould be in  `.txt` format
+>The text file should be in  `.txt` format
 
 
 ___
