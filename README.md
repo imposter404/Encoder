@@ -13,15 +13,16 @@ the main goal of the project is to encode text in image file and decode the imag
 
 
 ---
+
 ## Encode
----
+
 Step 1.
 > `Upload` the .txt file 
 
-### Step 2.
+Step 2.
 >click `encode`
 
-### Step 3.
+Step 3.
 >click `Download`
 
 > [!NOTE]
@@ -31,14 +32,14 @@ Step 1.
 
 
 ## Decode
----
-### Step 1.
+
+Step 1.
 > `Upload` the image file 
 
-### Step 2.
+Step 2.
 >click `decode`
 
-### Step 3.
+Step 3.
 >click `Download`
 
 
