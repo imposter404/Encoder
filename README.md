@@ -46,6 +46,7 @@ Step 3.
 > [!NOTE]
 >The image file should be in `.png` format
 
+___
 
 ## published at:
 [/Encoder](https://imposter404.github.io/Encoder)
