@@ -7,7 +7,7 @@
 # JavaScript
 
 ### description:
-the main goal of the project is to encode text in image file and decode the image file in text file without any loss in data ...
+the main goal of this project is to encode text in image file and decode the image file in text file without any loss in data ...
 
 
 
