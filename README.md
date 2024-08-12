@@ -6,10 +6,16 @@
 
 # JavaScript
 
+description:
+the main goal of the project is to encode text in image file and decode the image file in text file without any loss in data ...
+
+
+
+
 ---
 ## Encode
 ---
-### Step 1.
+Step 1.
 > `Upload` the .txt file 
 
 ### Step 2.
