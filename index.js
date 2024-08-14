@@ -1,10 +1,11 @@
+
 let string=''
 let binary=[]
 let hex=[]
 let filex
 let final=""
-const x=121;
-const y=121;
+let x=121
+let y=121
 
 
 let c=document.getElementById("canvas");
@@ -13,15 +14,13 @@ let d=document.createElement("img")
 let k=document.getElementById("canvas");
 let ex=k.getContext("2d");
 
-
-
 function toBinary()
 {
     string=string.replace(/[\r\t\v\f]/gm, '');
     string=string.replace(/[\n]/gm, '/n');
     for(i=0;i<string.length;i++)
     {
-        binary +=string.charCodeAt(i).toString(2);
+        // binary +=string.charCodeAt(i).toString(2);
         hex.push(string.charCodeAt(i).toString(16));
     }
 }
@@ -29,6 +28,11 @@ function toBinary()
 
 
 function encode(){
+
+document.getElementById("canvas").setAttribute('height',x);
+document.getElementById("canvas").setAttribute('width',y);
+
+
 let ptr=0
 for(i=0;i<x;i++)
 {
@@ -46,6 +50,7 @@ for(i=0;i<x;i++)
         }
     }
 }
+
 document.getElementById("download").innerHTML=
 '<button class="btn btn-light" onclick="download(\'img\')">Download</button>'
 }
@@ -102,7 +107,8 @@ for(i=0;i<x;i++)
 final=final.replaceAll("/n","\n");
 
 console.log(final.toString())
-document.getElementById("output").style.visibility="visible"
+// document.getElementById("output").style.visibility="visible"
+document.getElementById("output").style.display="block";
 document.getElementById("output").innerHTML=final;
 document.getElementById("download").innerHTML=
 '<button class="btn btn-light" onclick="download(\'txt\')">Download</button>'
@@ -126,18 +132,21 @@ if(file.type=='text/plain')
 }
 
 else if(file.type=="image/png"){
-    document.getElementById("button").innerHTML=
-        '<button id="button" class="btn btn-light" onclick="decode()">Decode</button>'
-
-
-    
     let reader= new FileReader();
     reader.readAsDataURL(file)
     reader.onload=(e)=>{
-      d.src=reader.result;
-      d.height=x;
-      d.weight=y;
-      ex.drawImage(d,0,0,x,y);
+      d.src=reader.result; 
+    //   d.height=x;
+    //   d.width=y;
+        console.log(d.height)
+      setTimeout(()=>{
+        document.getElementById("canvas").setAttribute('height',d.height);
+        document.getElementById("canvas").setAttribute('width',d.width);
+      ex.drawImage(d,0,0,d.height,d.width);
+      document.getElementById("button").innerHTML=
+      '<button id="button" class="btn btn-light" onclick="decode()">Decode</button>'
+      },1000)
+
     }
 
 }
