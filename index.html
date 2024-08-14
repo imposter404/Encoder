@@ -19,8 +19,32 @@ body{
 }
 .div-1{
     padding: 100px;
+    color: white;
 }
 
+.output{
+    color: white;
+    border: 1px solid white;
+    padding: 50px;
+    height: 70vh;
+    /* visibility:hidden; */
+    display: none;
+    overflow-y: scroll;
+    -webkit-user-modify: read-write-plaintext-only
+}
+
+
+
+@media screen and (max-width:450px) {
+
+.div-1{
+    padding: 100px 0px;
+}
+.output{
+    padding: 20px;
+}
+
+}
 
 </style>
 <body>
@@ -28,7 +52,7 @@ body{
 <div class="div-1">
     <div class="middle">
         <div>
-            <label for="file" class="form-lable">Input File</label>
+            <!-- <label for="file" class="form-lable">Input File</label> -->
             <input class="form-control" type="file" id="file" onchange="loadFile(this.files[0])">
         </div>
     </div>
@@ -37,12 +61,12 @@ body{
             <!-- <button id="button" class="btn btn-light" onclick="encode()">Encode</button> -->
         </div>
         <div style="padding: 50px;">
-            <canvas id="canvas" width="121" height="121"></canvas>
-            <div class="middle" id="download">
+            <canvas id="canvas" width="0" height="0"></canvas>
+            <div class="middle" id="download" style="margin: 20px 0;">
                 <!-- <button class="btn btn-light" onclick="download('txt')">Download</button> -->
             </div>
         </div>
-        <div style="color: white;border: 1px solid white;padding: 50px; visibility:hidden;" id="output">
+        <div class="output" id="output">
         </div>
     </div>
 </div>
