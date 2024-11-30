@@ -53,7 +53,7 @@ Instead of using black and white to represent a bit we can use RGB for a letter
 Now a letter consists of 8 bit and a RGB color is 8bit (0-255) so instead of using 8 pixel to represent a letter we could used each color in a pixel (RGB) to represent a letter. But still if use Red colour for the letter then also Green and blue will be in used and the size remains the same :/
 
 <br>
-So instead of a color for each letter we could used 3 colour of 3 letters ... so 3 letters= 3×8= 24 bit  and a pixel RGB is 8×3 = 24 bit. So the size of the letter and pixel remains the same :)
+So instead of a color for each letter we could used 3 colour of 3 letters ... so 3 letters= `3×8`= `24 bit`  and a pixel `RGB` is `8×3` = `24 bit`. So the size of the letter and pixel remains the same :)
 
 Letter size= `8bit`     <br>
 pixel = `8×3`= `24 bit`     <br>
