@@ -58,7 +58,7 @@ So instead of a color for each letter we could used 3 colour of 3 letters ... so
 Letter size= `8bit`     <br>
 pixel = `8×3`= `24 bit`     <br>
 Size of 3 letters = `8×3` = `24 bit`    <br>
-Size of letters increased by `0 times` 
+Size increased by `0 times` 
 
 
 
