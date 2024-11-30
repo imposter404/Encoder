@@ -40,10 +40,10 @@ Problem with this approach is <br>
 
 <br>
 
-Letter size= `8bit`
-pixel = `8×3`= `24 bit`
-no of pixel to represent a letter = `8`
-total no of bit for a letter= `8×24` = `192 bit`
+Letter size= `8bit`     <br>
+pixel = `8×3`= `24 bit`     <br>
+no of pixel to represent a letter = `8`     <br>
+total no of bit for a letter= `8×24` = `192 bit`     <br>
 Size of letters increased by `24 times` 
 
 
