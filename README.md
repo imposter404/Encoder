@@ -31,7 +31,7 @@ So for each letter there is an ASCII value and each ASCII value is 8 bit.
 Now image is made up of pixels and every bit data is represented in `0` or `1`
 If we represent `0` as `WHITE` and `1` as `BLACK`
 
-So we can fill each pixel with `BLACK` or `WHITE`
+So we can fill each pixel with `BLACK` or `WHITE`<br>
 So 8 Pixel will correspond to a ASCII number will will lead to a letter.
 
 
