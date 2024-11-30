@@ -36,10 +36,15 @@ So 8 Pixel will correspond to a ASCII number of a letter.
 
 ### Problem
 Problem with this approach is <br>
-8 pixel correspond to a letter and each pixel is made up of `RGB` where is color is 8bit (0-255), so a pixel is `RGB` `8×3=24 bit`
+8 pixel correspond to a letter and each pixel is made up of `RGB` where is color is 8bit (0-255), so a pixel is `RGB` `8×3=24 bit`. So even of we use black and white the size is increased by 3 times per pixel,and we are using 8 pixel to correspond a letter so in total it is increased by 8×24=192 times
 
+<br>
 
-
+Letter size= `8bit`
+pixel = `8×3`= `24 bit`
+no of pixel to represent a letter = `8`
+total no of bit for a letter= `8×24` = `192 bit`
+Size of letters increased by `24 times` 
 
 
 
