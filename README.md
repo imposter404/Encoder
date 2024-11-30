@@ -19,7 +19,7 @@ To convert text data into an image and retrieving the same data from an image...
 
 
 
-### description:
+## Description
 the main goal of this project is to encode text in image file and decode the image file in text file without any loss in data ...<br>
 `txt` --> `image`  && `image` --> `txt`
 
