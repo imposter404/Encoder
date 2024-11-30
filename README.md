@@ -46,7 +46,7 @@ no of pixel to represent a letter = `8`     <br>
 total no of bit for a letter= `8×24` = `192 bit`     <br>
 Size of letters increased by `24 times` 
 
-
+### Solution
 
 
 
