@@ -29,7 +29,10 @@ Text file contains of data in form of word, this Words are made up of letter. Ea
 So for each letter there is an ASCII value and each ASCII value is 8 bit.
 
 Now image is made up of pixels and every bit data is represented in `0` or `1`
-If we represent `0` as `White` and `1` as `black` `#RRGGBB`  
+If we represent `0` as `WHITE` and `1` as `BLACK`
+
+So we can fill each pixel with `BLACK` or `WHITE`
+So 8 Pixel will correspond to a ASCII number will will lead to a letter.
 
 
 
