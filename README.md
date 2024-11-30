@@ -34,6 +34,15 @@ If we represent `0` as `WHITE` and `1` as `BLACK`
 So we can fill each pixel with `BLACK` or `WHITE`<br>
 So 8 Pixel will correspond to a ASCII number of a letter.
 
+### Problem
+Problem with this approach is <br>
+8 pixel correspond to a letter and each pixel is made up of `RGB` where is color is 8bit (0-255), so a pixel is `RGB` `8×3=24 bit`
+
+
+
+
+
+
 
 
 
