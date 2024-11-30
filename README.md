@@ -64,8 +64,9 @@ Size increased by `0 times`
 
 
 ---
+## How to use 
 
-## Encode
+### Encode
 
 Step 1.
 > `Upload` the .txt file 
@@ -82,7 +83,7 @@ Step 3.
 
 ___
 
-## Decode
+### Decode
 
 Step 1.
 > `Upload` the image file 
