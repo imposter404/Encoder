@@ -24,7 +24,11 @@ the main goal of this project is to encode text in image file and decode the ima
 `txt` --> `image`  && `image` --> `txt`
 
 ## Process
+Text file contains of data in form of word, this Words are made up of letter. Each letter occupied some byte of memory. Each letter has a unique ASCII value. ASCII is an 8-bit code. That is, it uses eight bits to represent a letter.
 
+So for each letter there is an ASCII value and each ASCII value is 8 bit.
+
+Now image is made up of pixels. 
 
 
 
